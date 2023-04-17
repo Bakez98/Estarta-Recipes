@@ -4,7 +4,7 @@ const AddRecipes = () => {
   return <div>
     
 
-    <form className="container" onSubmit={handleSubmit}>
+    {/* <form className="container" onSubmit={handleSubmit}>
         <label>Title:</label>
         <input type="text" name="title" required onChange={handleChange} />
 
@@ -15,7 +15,7 @@ const AddRecipes = () => {
         <input type="text" name="author" required onChange={handleChange} />
 
         <button type="submit">Submit</button>
-      </form>
+      </form> */}
   </div>;
 };
 

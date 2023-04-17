@@ -32,4 +32,9 @@
   .NavBarWrapper button:hover {
     background-color: #d94344;
   }
+
+  .Buttons{
+    display: flex;
+    gap: 2px;
+  }
   

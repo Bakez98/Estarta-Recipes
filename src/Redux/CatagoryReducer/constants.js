@@ -1,0 +1,4 @@
+export const LOADING = "LOADING"
+export const FETCH_SUCCESS = "FETCH_SUCCESS"
+export const ERROR ="ERROR"
+export const FETCH_SINGLE_CATEGORY = "FETCH_SINGLE_CATEGORY"

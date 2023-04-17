@@ -4,7 +4,7 @@ import CatagoryReducer from "./CatagoryReducer/Reducer";
 
 
 const AllReducers = combineReducers({
-    CatagoryReducer,
+    CatagoryReducer
  })
 
 export default AllReducers;

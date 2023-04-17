@@ -1,0 +1,34 @@
+.wrapper {
+    margin: 20px;
+    padding: 10px;
+    background-color: #eee;
+  }
+  
+  .imageAndDescription {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    background-color: #ddd;
+    margin-right: 20px;
+  }
+  
+  .description {
+    flex: 1;
+  }
+  
+  .comment {
+    margin-top: 20px;
+  }
+  
+  .comments {
+    margin-top: 20px;
+  }
+  
+  .comments p {
+    font-weight: bold;
+  }
+  
