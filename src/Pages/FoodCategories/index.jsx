@@ -18,17 +18,18 @@ import styles from "./styles.module.css"
 const FoodCategories = () => {
   const dispatch = useDispatch();
   const { foodCategories } = useSelector((state) => state.CatagoryReducer);
-  const navigate = useNavigate();
+  const nav = useNavigate();
   console.log("loggin from foodCategories",foodCategories);
 
 
-  function HandleClick(CategoryName) {
-     dispatch(FetchSingleCategory(CategoryName))
-     navigate('/SingleCategory')
+  function HandleClick(category) {
+     dispatch(FetchSingleCategory(category))
+     nav("./SingleCategory")
   }
 
   useEffect(() => {
     dispatch(FetchCategories());
+    
   }, []);
 
   return (
@@ -45,7 +46,7 @@ const FoodCategories = () => {
               style={{ backgroundImage: `url(${category.category_picture})` }}
             >
               <div className={styles.overlay}>
-                <Button onClick={() => HandleClick(category.name)} variant="primary">Check Recipes</Button>
+                <Button onClick={() => HandleClick(category)} variant="primary">Check Recipes</Button>
               </div>
             </div>
             <Card.Body>

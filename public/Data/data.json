@@ -9,7 +9,7 @@
                     "id": 1,
                     "name": "Spaghetti Bolognese",
                     "description": "This classic Italian dish is made with ground beef, tomato sauce, and spaghetti noodles.",
-                    "picture": "https://example.com/spaghetti_bolognese.jpg",
+                    "picture": "https://www.ocado.com/cmscontent/recipe_image_large/33362787.png?awuq",
                     "ingredients": [
                         "1 pound ground beef",
                         "8 ounces spaghetti noodles",
@@ -26,7 +26,7 @@
                     "id": 2,
                     "name": "Margherita Pizza",
                     "description": "This traditional Italian pizza is topped with tomato sauce, mozzarella cheese, and fresh basil.",
-                    "picture": "https://example.com/margherita_pizza.jpg",
+                    "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Pizza_Margherita_stu_spivack.jpg",
                     "ingredients": [
                         "1 pizza crust",
                         "1 cup tomato sauce",
@@ -40,7 +40,7 @@
                     "id": 3,
                     "name": "Tiramisu",
                     "description": "This classic Italian dessert features layers of espresso-soaked ladyfingers and a light, creamy filling made with mascarpone cheese and whipped cream.",
-                    "picture": "https://example.com/tiramisu.jpg",
+                    "picture": "https://true-italian.com/wp-content/uploads/2022/05/tiramisu-1080x675.jpg",
                     "ingredients": [
                         "6 egg yolks",
                         "3/4 cup white sugar",

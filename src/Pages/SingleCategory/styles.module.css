@@ -1,34 +1,70 @@
 .wrapper {
-    margin: 20px;
-    padding: 10px;
-    background-color: #eee;
-  }
-  
-  .imageAndDescription {
-    display: flex;
-    margin-top: 20px;
-  }
-  
-  .image {
-    width: 200px;
-    height: 200px;
-    background-color: #ddd;
-    margin-right: 20px;
-  }
-  
-  .description {
-    flex: 1;
-  }
-  
-  .comment {
-    margin-top: 20px;
-  }
-  
-  .comments {
-    margin-top: 20px;
-  }
-  
-  .comments p {
-    font-weight: bold;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.recipe {
+  width: calc(33.33% - 1rem);
+  background-color: #2d4059;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.recipe:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #7dabe8;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+
+@font-face {
+  font-family: 'My Custom Font';
+  src: url('/path/to/my-font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+h2 {
+  font-family: 'My Custom Font', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

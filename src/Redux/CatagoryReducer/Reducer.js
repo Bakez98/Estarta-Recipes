@@ -3,7 +3,9 @@ const initState = {
   loading:false,
   error:null,
   foodCategories:[],
-  singleCategory:{}
+  singleCategory:{},
+  singleRecipe:[]
+  
 };
 
 function CatagoryReducer(state = initState, action) {
@@ -24,6 +26,12 @@ function CatagoryReducer(state = initState, action) {
             ...state,
             loading:false,
             singleCategory:action.payload
+          }
+        case CATEGORY_CONSTANTS.FETCH_SINGLE_RECIPE:
+          return{
+            ...state,
+            loading:false,
+            singleRecipe:action.payload
           }
         case CATEGORY_CONSTANTS.ERROR:
           return{

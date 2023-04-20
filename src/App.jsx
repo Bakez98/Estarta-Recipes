@@ -20,7 +20,7 @@ function App() {
         <Route path="/AddRecipes" element={<AddRecipes />} />
         <Route path="/SingleCategory" element={<SingleCategory />} />
         <Route
-          path="/SingleRecipeInformation/:id"
+          path="/SingleRecipeInformation"
           element={<SingleRecipeInformation />}
         />
       </Routes>
