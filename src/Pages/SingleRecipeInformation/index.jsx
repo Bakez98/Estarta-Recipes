@@ -1,15 +1,24 @@
 // SingleCatagoryInformation.js
-import React from 'react'
+import React, { useState } from 'react'
 import styles from "./styles.module.css"
 //import Hooks
-import { useDispatch, useSelector } from "react-redux";
+import {  useDispatch, useSelector } from "react-redux";
+import { PostComment } from '../../Redux/CatagoryReducer/actions';
 
 //i have to use useParams Hook for the id  const {id } = useParam()
 
 const SingleCatagoryInformation = () => {
 
+  const [comment, setComment] = useState("")
+  const {comments} = useSelector(state => state.CatagoryReducer)
+
   const {singleRecipe} = useSelector(state => state.CatagoryReducer)
-  console.log("LOGGING FROM INSIDE SINGLE RECIPE",singleRecipe)
+  const disaptch = useDispatch()
+  function HandleClick(singleRecipe,comment) {
+    disaptch(PostComment(singleRecipe,comment))
+    // alert("comment added succesfully")
+    setComment("")
+  }
 
   return (
     <div className={styles.wrapper}>
@@ -24,8 +33,8 @@ const SingleCatagoryInformation = () => {
       </div>
       <div className={styles.comment}>
         <h2>Add Comment</h2>
-        <input placeholder='Enter your Comment'/>
-        <button>Add Comment</button>
+        <input placeholder='Enter your Comment' onChange={(e) => setComment(e.target.value)}/>
+        <button onClick={()=>HandleClick(singleRecipe,comment)}>Add Comment</button>
       </div>
       <div className={styles.comments}>
         <p>Comments posted:</p>

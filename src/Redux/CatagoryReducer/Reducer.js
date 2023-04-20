@@ -4,8 +4,8 @@ const initState = {
   error:null,
   foodCategories:[],
   singleCategory:{},
-  singleRecipe:[]
-  
+  singleRecipe:[],
+  comments:[]
 };
 
 function CatagoryReducer(state = initState, action) {
@@ -37,6 +37,12 @@ function CatagoryReducer(state = initState, action) {
           return{
             ...state,
             error:action.payload,
+          }
+        case CATEGORY_CONSTANTS.POST_COMMENT:
+          return{
+            ...state,
+            loading:false,
+            comments:[...comments, action.payload]
           }
         default:
             return state;

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useRef} from 'react';
 import styles from "./styles.module.css";
 
 const AddRecipes = () => {
@@ -16,16 +16,18 @@ const AddRecipes = () => {
     'AmericanFood',
   ];
 
+  const myRef = useRef({
+    categories: "",
+    recipesName: "",
+    recipeIngredients: "",
+    recipepicture: "",
+    recipedescription: "",
+  });
+
   const handleSubmit = (event) => {
     event.preventDefault();
     // Here you can dispatch an action to add the recipe to your Redux store or send the data to your server
-    console.log({
-      mainCategory,
-      recipeName,
-      recipeIngredients,
-      recipePicture,
-      recipeDescription,
-    });
+
     // Reset the form
     setMainCategory('');
     setRecipeName('');

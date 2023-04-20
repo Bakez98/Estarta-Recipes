@@ -65,7 +65,7 @@
                     "id": 4,
                     "name": "Chicken Enchiladas",
                     "description": "These cheesy enchiladas are filled with seasoned chicken and topped with a spicy tomato sauce.",
-                    "picture": "https://example.com/chicken_enchiladas.jpg",
+                    "picture": "https://th.bing.com/th/id/OIP.xG96SXegNyoQAZxWMCKfqgHaHa?pid=ImgDet&rs=1",
                     "ingredients": [
                         "1 pound chicken breasts, cooked and shredded",
                         "12 corn tortillas",
@@ -82,7 +82,7 @@
                     "id": 5,
                     "name": "Guacamole",
                     "description": "This classic dip is made with mashed avocados, tomato, onion, and lime juice.",
-                    "picture": "https://example.com/guacamole.jpg",
+                    "picture": "https://th.bing.com/th/id/R.a6504b50d78aa16adc6e227e0f570f48?rik=MJ4nBQFX3X8FEQ&pid=ImgRaw&r=0",
                     "ingredients": [
                         "2 ripe avocados, mashed",
                         "1 tomato, chopped",
@@ -103,7 +103,7 @@
                     "id": 6,
                     "name": "Kung Pao Chicken",
                     "description": "This spicy stir-fry dish features chicken, peanuts, and vegetables in a savory sauce.",
-                    "picture": "https://example.com/kung_pao_chicken.jpg",
+                    "picture": "https://th.bing.com/th/id/R.75b2fd7dcf09b2b9f88e0cd5e1bf51f0?rik=dBhlUkW1eJhVUg&pid=ImgRaw&r=0",
                     "ingredients": [
                         "1 pound boneless, skinless chicken breasts, cut into bite-size pieces",
                         "1 red bell pepper, sliced",
@@ -125,7 +125,7 @@
                     "id": 7,
                     "name": "Fried Rice",
                     "description": "This classic Chinese dish is made with rice, vegetables, and protein, all stir-fried together with soy sauce and other seasonings.",
-                    "picture": "https://example.com/fried_rice.jpg",
+                    "picture": "https://th.bing.com/th/id/R.3e79139b9fa733f337ab3bff912e3023?rik=PUrGLPEDxITUtA&pid=ImgRaw&r=0",
                     "ingredients": [
                         "3 cups cooked rice, chilled",
                         "1 cup frozen mixed vegetables",
@@ -150,7 +150,7 @@
                     "id": 8,
                     "name": "Burger and Fries",
                     "description": "This classic American meal features a juicy beef patty, topped with cheese and served with crispy French fries.",
-                    "picture": "https://example.com/burger_and_fries.jpg",
+                    "picture": "https://th.bing.com/th/id/OIP.KnGqM2ijKs3vMhSdqxWI0AHaEy?pid=ImgDet&rs=1",
                     "ingredients": [
                         "1/2 pound ground beef",
                         "1 hamburger bun",
@@ -164,7 +164,7 @@
                     "id": 9,
                     "name": "Mac and Cheese",
                     "description": "This comforting dish is made with tender pasta and a creamy cheese sauce.",
-                    "picture": "https://example.com/mac_and_cheese.jpg",
+                    "picture": "https://th.bing.com/th/id/OIP.EAIuPWN5-oaxOcsnv3-eUwHaE8?pid=ImgDet&rs=1",
                     "ingredients": [
                         "8 ounces elbow macaroni",
                         "2 tablespoons butter",
@@ -187,7 +187,8 @@
                     "id": 10,
                     "name": "Chicken Tikka Masala",
                     "description": "This creamy, spicy Indian dish features tender chunks of chicken in a rich tomato-based sauce flavored with ginger, garlic, and a variety of aromatic spices.",
-                    "picture": "https://example.com/chicken_tikka_masala.jpg",
+                    "picture": "https://bing.com/th?id=OSK.0ed5222f88931f5ce43a13f4eb591595",
+                    "comments": [],
                     "ingredients": [
                         "1 pound boneless, skinless chicken breast, cut into small pieces",
                         "1/2 cup plain yogurt",
@@ -209,13 +210,13 @@
                         "1/2 cup heavy cream",
                         "1/4 cup chopped fresh cilantro"
                     ],
-                    "comments": []
+                    
                 },
                 {
                     "id": 11,
                     "name": "Palak Paneer",
                     "description": "This classic Indian dish features cubes of paneer cheese in a creamy spinach sauce flavored with ginger, garlic, and aromatic spices.",
-                    "picture": "https://example.com/palak_paneer.jpg",
+                    "picture": "https://bing.com/th?id=OSK.4a2e83ccacf97848fb4cc52e650beeed",
                     "ingredients": [
                         "1/2 pound paneer cheese, cut into cubes",
                         "2 tablespoons vegetable oil",

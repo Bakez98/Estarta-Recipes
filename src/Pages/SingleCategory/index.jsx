@@ -10,6 +10,7 @@ import { FetchSingleRecipe } from "../../Redux/CatagoryReducer/actions";
 const SingleCategory = () => {
   const dispatch = useDispatch();
   const { singleCategory } = useSelector((state) => state.CatagoryReducer);
+  console.log("loggin from foodCategories",singleCategory);
   const nav = useNavigate();
 
   function handleClick(recipe) {

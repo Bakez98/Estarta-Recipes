@@ -17,9 +17,10 @@ import styles from "./styles.module.css"
 
 const FoodCategories = () => {
   const dispatch = useDispatch();
-  const { foodCategories } = useSelector((state) => state.CatagoryReducer);
+  const { foodCategories, singleCategory } = useSelector((state) => state.CatagoryReducer);
   const nav = useNavigate();
   console.log("loggin from foodCategories",foodCategories);
+  
 
 
   function HandleClick(category) {
