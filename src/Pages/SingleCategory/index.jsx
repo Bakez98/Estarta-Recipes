@@ -18,6 +18,8 @@ const SingleCategory = () => {
     nav("/SingleRecipeInformation")
   }
 
+  console.log(singleCategory)
+
   return (
     <div>
       <h2>{singleCategory.name}</h2>

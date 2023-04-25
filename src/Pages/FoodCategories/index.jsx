@@ -36,7 +36,7 @@ const FoodCategories = () => {
   return (
     <div className={styles.Wrapper}>
       {
-        foodCategories.map(category => (
+        foodCategories?.map(category => (
           <Card 
             key={category.id} 
             className={styles.card}
